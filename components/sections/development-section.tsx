@@ -14,17 +14,16 @@ export default function DevelopmentSection() {
               Webentwicklung und maßgeschneiderte Softwarelösungen
             </h2>
             <p className="text-gray-300 mb-6 leading-relaxed">
-              Wir entwickeln innovative Webanwendungen und maßgeschneiderte
-              Softwarelösungen, die genau auf Ihre Bedürfnisse zugeschnitten
-              sind.
+              Innovative Webentwicklung und Softwarelösungen, exakt auf deine
+              Anforderungen abgestimmt.
             </p>
             <ul className="space-y-4 text-gray-300 mb-8">
               {[
-                "Responsive Webdesign",
-                "Entwicklung von Webanwendungen",
-                "Maßgeschneiderte Softwarelösungen",
-                "Integration von Streaming-Technologien",
-                "Skalierbare Cloud-Architekturen",
+                "Modernes, responsives Webdesign für alle Endgeräte.",
+                "Individuelle Webanwendungen, die mitwachsen.",
+                "Maßgeschneiderte Softwarelösungen, perfekt auf dich zugeschnitten.",
+                "Nahtlose Integration von Streaming-Technologien.",
+                "Skalierbare Cloud-Architekturen für grenzenloses Wachstum.",
               ].map((item, index) => (
                 <li key={index} className="flex items-center">
                   <div className="mr-4 h-2 w-2 bg-blue-500 rounded-full" />

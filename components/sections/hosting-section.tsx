@@ -14,17 +14,17 @@ export default function HostingSection() {
               Hosting und Interviews
             </h2>
             <p className="text-gray-300 mb-6 leading-relaxed">
-              Lassen Sie Ihre Veranstaltungen und Interviews von erfahrenen
-              Profis moderieren. Wir sorgen dafür, dass Ihre Gäste sich wohl
-              fühlen und Ihre Botschaft optimal vermittelt wird.
+              Überlasse deine Events und Interviews echten Profis. Wir schaffen
+              eine Atmosphäre, in der sich deine Gäste wohlfühlen und deine
+              Botschaft perfekt ankommt.
             </p>
             <ul className="space-y-4 text-gray-300 mb-8">
               {[
-                "Professionelles Event-Hosting",
-                "Engagierte Interviewführung",
-                "Podcast-Produktion und -Hosting",
-                "Moderation von Online-Veranstaltungen",
-                "Mehrsprachige Hosting-Services",
+                "Event-Hosting auf höchstem Niveau.",
+                "Fesselnde Interviewführung, die begeistert.",
+                "Podcast-Produktion und Hosting, die deine Stimme groß macht.",
+                "Moderation für deine digitalen Events – souverän und engagiert.",
+                "Mehrsprachiges Hosting für globale Reichweite.",
               ].map((item, index) => (
                 <li key={index} className="flex items-center">
                   <div className="mr-4 h-2 w-2 bg-blue-500 rounded-full" />

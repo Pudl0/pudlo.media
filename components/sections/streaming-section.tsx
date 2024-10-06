@@ -14,18 +14,17 @@ export default function StreamingSection() {
               Live-Streaming und Content-Produktion
             </h2>
             <p className="text-gray-300 mb-6 leading-relaxed">
-              Wir bieten professionelle Live-Streaming-Dienste und
-              Content-Produktion für Ihre Online-Präsenz. Unser erfahrenes Team
-              sorgt dafür, dass Ihre Botschaft klar und eindrucksvoll bei Ihrem
-              Publikum ankommt.
+              Premium Live-Streaming und kreative Content-Produktion. Wir
+              bringen deine Message glasklar und wirkungsvoll auf die
+              Bildschirme – für den maximalen Wow-Effekt bei deinem Publikum.
             </p>
             <ul className="space-y-4 text-gray-300 mb-8">
               {[
-                "Hochwertige Live-Streams für Events und Webinare",
-                "Professionelle Videoproduktion und -bearbeitung",
-                "Optimierung Ihrer Content-Strategie",
-                "Maßgeschneiderte Streaming-Lösungen",
-                "Interaktive Zuschauerbeteiligung",
+                "Live-Streams in Top-Qualität für deine Events und Webinare.",
+                "Professionelle Video-Produktion und Cutting-Edge-Postproduktion.",
+                "Deine Content-Strategie, neu gedacht und optimiert.",
+                "Individuelle Streaming-Lösungen, perfekt abgestimmt auf dich.",
+                "Maximale Interaktion – binde dein Publikum aktiv ein.",
               ].map((item, index) => (
                 <li key={index} className="flex items-center">
                   <div className="mr-4 h-2 w-2 bg-blue-500 rounded-full" />

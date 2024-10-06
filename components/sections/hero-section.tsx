@@ -53,10 +53,10 @@ const useTypingEffect = (
 export default function HeroSection() {
   const typedText = useTypingEffect(
     [
-      "Streaming",
+      "Live-Streaming",
       "Moderation",
-      "Individuelle Softwarelösungen",
-      "IT-Infrastruktur",
+      "Individuellen Softwarelösungen",
+      "IT-Infrastruktur nach Maß",
     ],
     100,
     50,
@@ -74,13 +74,13 @@ export default function HeroSection() {
       <div className="container mx-auto px-4 sm:px-6 relative z-10">
         <div className="flex flex-col items-center justify-center h-full animate-fade-in-up text-center">
           <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-2 text-blue-400">
-            Willkommen bei
+            Next-Level-Content für dein Unternehmen
           </h1>
           <h2 className="text-6xl sm:text-7xl md:text-8xl lg:text-9xl xl:text-10xl font-bold mb-6 sm:mb-8 text-white leading-none">
             pudlo.media
           </h2>
           <p className="text-xl sm:text-2xl md:text-3xl lg:text-4xl mb-3 sm:mb-4 text-gray-300">
-            Dein Experte für
+            Lass uns gemeinsam durchstarten mit
           </p>
           <p className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-blue-400 font-semibold min-h-[3em]">
             {typedText}
